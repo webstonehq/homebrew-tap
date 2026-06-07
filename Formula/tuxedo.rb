@@ -1,28 +1,28 @@
 class Tuxedo < Formula
   desc "Fast, keyboard-driven terminal UI for todo.txt"
   homepage "https://github.com/webstonehq/tuxedo"
-  version "2026.6.1"
+  version "2026.6.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/webstonehq/tuxedo/releases/download/v#{version}/tuxedo-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "584e7362342f34c870ebbbaaf5417ba277056990f82cf7752a0dbe001dc88471"
+      sha256 "43e7230c08bd95bbb78abd2dd374b42e47a85a116b6fa248a44328b682e85673"
     end
     on_intel do
       url "https://github.com/webstonehq/tuxedo/releases/download/v#{version}/tuxedo-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "ceeb500e3705aeb685d7529351839166969262c0c913f15688893eb40a07888e"
+      sha256 "4e9c7052012c2725a6bed7f96bdbbd85fd94b18a9e849908935588251e834f80"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/webstonehq/tuxedo/releases/download/v#{version}/tuxedo-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "81eb227d5c6b985beb2689ee30f889cf6c6529146155bba29c2985091a3b9867"
+      sha256 "2817d2b6d8fba4c9b87ebabcadd47f8c91abfa3d533c330de81e3e39270183ff"
     end
     on_intel do
       url "https://github.com/webstonehq/tuxedo/releases/download/v#{version}/tuxedo-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ba0152c3504e2e5028314a7580d69058ceb03f31ef3c97f12a93227c84ab7f1d"
+      sha256 "31b9bb26cc7b0909979333b74ef246df6303b424ff533335d9f10ef1237d09d6"
     end
   end
 
